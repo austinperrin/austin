@@ -1,0 +1,24 @@
+{
+  "name": "@poke-the-austin/web",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "tsc -p tsconfig.json && vite build",
+    "lint": "eslint src tests --ext .ts",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "vitest run tests/unit",
+    "test:e2e": "playwright test"
+  },
+  "dependencies": {
+    "@poke-the-austin/game-core": "workspace:*",
+    "phaser": "^3.90.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.56.1",
+    "@types/node": "^24.10.1",
+    "vite": "^7.1.11",
+    "vitest": "^3.2.4"
+  }
+}
