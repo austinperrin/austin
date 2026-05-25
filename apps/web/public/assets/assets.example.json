@@ -1,0 +1,33 @@
+{
+  "boss": {
+    "idle": "/assets/boss/idle.png",
+    "move": "/assets/boss/move.png",
+    "attack": "/assets/boss/attack.png",
+    "hurt": "/assets/boss/hurt.png",
+    "defeated": "/assets/boss/defeated.png"
+  },
+  "cursor": {
+    "normal": "/assets/cursor/normal.png",
+    "hurt": "/assets/cursor/hurt.png",
+    "defeated": "/assets/cursor/defeated.png"
+  },
+  "effects": {
+    "swordSlash": "/assets/effects/sword-slash.png",
+    "fireball": "/assets/effects/fireball.png",
+    "hit": "/assets/effects/hit.png",
+    "explosion": "/assets/effects/explosion.png"
+  },
+  "items": {
+    "pointerPoke": "/assets/items/pointer-poke.png"
+  },
+  "backgrounds": {
+    "arena": "/assets/backgrounds/arena.png"
+  },
+  "audio": {
+    "poke": "/assets/audio/poke.ogg",
+    "sword": "/assets/audio/sword.ogg",
+    "fireball": "/assets/audio/fireball.ogg",
+    "victory": "/assets/audio/victory.ogg",
+    "defeat": "/assets/audio/defeat.ogg"
+  }
+}
